@@ -1,0 +1,158 @@
+{
+    "name": "PlayerCOntroller",
+    "maps": [
+        {
+            "name": "MovementController",
+            "id": "53527385-29d8-483d-8ce6-c15ebcbc4fab",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "a760a16f-37ab-417f-b266-3ffa93838c24",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "EjeX",
+                    "type": "Button",
+                    "id": "b8db04b0-7fc1-48a8-9071-d47e2c928c87",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "EjeZ",
+                    "type": "Button",
+                    "id": "cd93bbb9-8195-47e8-b451-5019d259e27f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CambioPlayer",
+                    "type": "Button",
+                    "id": "d2cd9d2f-7858-40ea-a717-3fe74e594916",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CambioPlayer1",
+                    "type": "Button",
+                    "id": "2cd892bf-e1e9-4b71-8271-09ab62acf84a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "51eaca2c-bf85-4a93-a981-4872a90f5332",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "b6a5dc53-4e29-48df-bbc6-4caf0382b8f3",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EjeX",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "9c65ac33-6d8c-46e2-a64c-449588f230b8",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EjeX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "19dc955b-2c71-4e4a-b267-c0a972341f28",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EjeX",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "21d8617f-f36b-4b92-915b-ec9400511ba6",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EjeZ",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "49c5de45-c23d-4e26-882f-0c45e61a972f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EjeZ",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "6a0fd895-ae9c-40b5-b40f-6ad3f26446cc",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EjeZ",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "35c29f62-b040-436f-96ec-583c918bfbc0",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CambioPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f163319-006d-420f-8dea-030ea45c1d7a",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CambioPlayer1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
